@@ -28,14 +28,14 @@ Due to the complicated and time-consuming development process of EMSs, deep tran
 ## Deep transfer learning
 Based on the transferability of neural networks, network based DTL is incorporated with DDPG algorithm to realize EMS transfer between the source and target domains. The basic principle is to reuse the partial actor-critic network that has been pre-trained in the source domain, and utilize it to initialize the specific parts of actor-critic network in the target domain, as shown in Fig. 4. 
 
-<div align="center"><img height="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
+<div align="center"><img height="300" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 4. Sketch map of network-based deep transfer learning
  
  ## Results
 By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% gap from the baseline in respect of convergence efficiency has been achieved.
 
- <div align="center"><img height="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and 
+ <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning.jpg"/></div>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and convergence efficiency
  
  ## Collaborators
 --------------
