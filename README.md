@@ -9,7 +9,7 @@ Developing energy management strategies (EMSs) for different types of hybrid ele
 
 1) A novel framework of DRL-based EMS combined with TL is proposed based on a state-of-art DRL algorithm, DDPG. 
 2) In contrast to previous studies that only target to handle the EMS of a single HEV configuration,the proposed framework is utilized to implement EMSs of different types of HEVs. It is notable that this method can significantly shorten the EMS development cycle for different types of HEVs. 
-3) We also study TL between EMSs with different control variables. Interestingly the results show that the learning efficiency of an EMS that controls engine andmotor can be improved by knowledge reuse from an EMS that only controls engine.
+3) We also study TL between EMSs with different control variables. Interestingly the results show that the learning efficiency of an EMS that controls engine and motor can be improved by knowledge reuse from an EMS that only controls engine.
 
 Due to the complicated and time-consuming development process of EMSs, deep transfer reinforcement learning is proposed to implement EMSs for different types of HEVs.
 
