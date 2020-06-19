@@ -1,0 +1,2 @@
+model_checkpoint_path: "save_net.ckpt-2000"
+all_model_checkpoint_paths: "save_net.ckpt-2000"
