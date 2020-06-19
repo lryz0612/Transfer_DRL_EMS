@@ -25,7 +25,7 @@ Due to the complicated and time-consuming development process of EMSs, deep tran
  <div align="center"><img width="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/source%20dataset.jpg"/><img width="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/target%20dataset.jpg"/></div>
 &emsp;&emsp;&emsp; Fig. 2. Velocity distribution of the source dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 3. Velocity distribution of the target dataset
 
-## Deep transfer learning
+## Methodology: deep transfer learning
 Based on the transferability of neural networks, network based DTL is incorporated with DDPG algorithm to realize EMS transfer between the source and target domains. The basic principle is to reuse the partial actor-critic network that has been pre-trained in the source domain, and utilize it to initialize the specific parts of actor-critic network in the target domain, as shown in Fig. 4. 
 
 <div align="center"><img height="300" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
@@ -36,6 +36,13 @@ By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% g
 
  <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and convergence efficiency
+ 
+ ## The code structure
+
+- The Prius folder contains the DDPG based energy management strategy for Prius (source domain).
+- The Plug-in series HEV folder contains the DDPG based energy management strategy for a plug-in series HEV (target domain).
+- The Image folder contains the figures showed in this research.
+
  
  ## Collaborators
 --------------
