@@ -7,13 +7,6 @@ Happy to answer any questions you have. Please email us at lianrz612@gmail.com o
 # Abstract
 Developing energy management strategies (EMSs) for different types of hybrid electric vehicles (HEVs) is a time-consuming and laborious task for automotive engineers.Experienced engineers can reduce the developing cycle by exploiting the commonalities between different types of HEV EMSs. Aiming at improving the efficiency of HEV EMSs development automatically, this paper proposes a transfer learning based method to achieve the cross-type knowledge transfer between deep reinforcement learning (DRL) based EMSs. Specifically, knowledge transfer among four significantly different types of HEVs is studied. We first use massive driving cycles to train a DRL-based EMS for Prius. Then the parameters of its deep neural networks, wherein the common knowledge of energy management is captured, are transferred into EMSs of a power-split bus, a series vehicle and a series-parallel bus. Finally, the parameters of 3 different HEV EMSs are fine-tuned in a small dataset. Simulation results indicate that, by incorporating transfer learning (TL) into DRL-based EMS for HEVs, an average 70% gap from the baseline in respect of convergence efficiency has been achieved. Our study also shows that TL can transfer knowledge between two HEVs that have significantly different structures. Overall, TL is conducive to boost the development process for HEV EMS.
 
-1) A novel framework of DRL-based EMS combined with TL is proposed based on a state-of-art DRL algorithm, DDPG. 
-2) In contrast to previous studies that only target to handle the EMS of a single HEV configuration,the proposed framework is utilized to implement EMSs of different types of HEVs. It is notable that this method can significantly shorten the EMS development cycle for different types of HEVs. 
-3) We also study TL between EMSs with different control variables. Interestingly the results show that the learning efficiency of an EMS that controls engine and motor can be improved by knowledge reuse from an EMS that only controls engine.
-
-Due to the complicated and time-consuming development process of EMSs, deep transfer reinforcement learning is proposed to implement EMSs for different types of HEVs.
-
-
 ## HEV modeling
 
 <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/HEVs.jpg"/></div>
