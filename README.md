@@ -17,7 +17,7 @@ Due to the complicated and time-consuming development process of EMSs, deep tran
 ## HEV modeling
 
 <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/HEVs.jpg"/></div>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1. Schematic graph of four types of HEV powertrain architecture
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1. Schematic graph of four types of HEV powertrain architecture
  
  ## Datasets
  In this research, driving cycles consist of two parts: the common  used  standard  driving  cycles  and  the  historical  records of  driving  cycles  collected  from  passenger  and  commercial vehicles. These collected driving cycles are divided into source dataset and target dataset accordingly, in which the amount of data in the source dataset is much larger than that in the target dataset.
@@ -29,13 +29,13 @@ Due to the complicated and time-consuming development process of EMSs, deep tran
 Based on the transferability of neural networks, network based DTL is incorporated with DDPG algorithm to realize EMS transfer between the source and target domains. The basic principle is to reuse the partial actor-critic network that has been pre-trained in the source domain, and utilize it to initialize the specific parts of actor-critic network in the target domain, as shown in Fig. 4. 
 
 <div align="center"><img height="300" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 4. Sketch map of network-based deep transfer learning
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 4. Sketch map of network-based deep transfer learning
  
  ## Results
 By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% gap from the baseline in respect of convergence efficiency has been achieved.
 
  <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and convergence efficiency
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and convergence efficiency
  
  ## The code structure
 
