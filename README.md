@@ -27,19 +27,19 @@ Based on the transferability of neural networks, network based DTL is incorporat
 ## Metrics of transfer learning in energy management strategy
 To evaluate the performance of transfer learning on the target tasks, some evaluation metrics are defined particularly according to the energy management strategy transfer task.
 
-(1) Jumpstart: the initial performance of an agent before learning, i.e., the mean performance of fuel economy before the agent starts to learn, as shown in Fig. 5.
+(1) **Jumpstart:** the initial performance of an agent before learning, i.e., the mean performance of fuel economy before the agent starts to learn, as shown in Fig. 5.
 
-(2) Robustness: the stability of energy management strategy during training.
+(2) **Robustness:** the stability of energy management strategy during training.
 
-(3) Fuel economy: the overall fuel and electricity consumption of HEVs are calculated in a specific driving cycle.
+(3) **Fuel economy:** the overall fuel and electricity consumption of HEVs are calculated in a specific driving cycle.
 
-(4) Convergence efficiency: convergence efficiency can be interpreted as the training episodes required for convergence.
+(4) **Convergence efficiency:** convergence efficiency can be interpreted as the training episodes required for convergence.
 
-(5) Generalization performance: the performance that is generalized to new unseen driving cycles.
+(5) **Generalization performance:** the performance that is generalized to new unseen driving cycles.
 
-(6) Similarity degree: it is used to explain the intrinsic mechanism of EMS transferability between different types of HEVs, where the analysis of intrinsic mechanism mainly focus on the similarity degrees of the neural network parameters or output distributions. The similarity degree is measured by Euclidean distance.
+(6) **Similarity degree:** it is used to explain the intrinsic mechanism of EMS transferability between different types of HEVs, where the analysis of intrinsic mechanism mainly focus on the similarity degrees of the neural network parameters or output distributions. The similarity degree is measured by Euclidean distance.
 
- <div align="center"><img height="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/metric.jpg"/></div>
+ <div align="center"><img height="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/metric.jpg"/></div>
 Fig. 5. Evaluation metrics. This figure shows four evaluation metrics: fuel economy, jumpstart, convergence efficiency and generalization performance on new unseen driving cycles. ∆J, ∆T and ∆G represent the benefits of transfer respectively.
 
  ## Results
