@@ -24,11 +24,23 @@ Based on the transferability of neural networks, network based DTL is incorporat
 <div align="center"><img height="300" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Transfering_learning.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 4. Sketch map of network-based deep transfer learning
  
+## Metrics of transfer learning in energy management strategy
+To evaluate the performance of transfer learning on the target tasks, some evaluation metrics are defined particularly according to the energy management strategy transfer task.
+(1) Jumpstart: the initial performance of an agent before learning, i.e., the mean performance of fuel economy before the agent starts to learn, as shown in Fig. 5.
+(2) Robustness: the stability of energy management strategy during training.
+(3) Fuel economy: the overall fuel and electricity consumption of HEVs are calculated in a specific driving cycle.
+(4) Convergence efficiency: convergence efficiency can be interpreted as the training episodes required for convergence.
+(5) Generalization performance: the performance that is generalized to new unseen driving cycles.
+(6) Similarity degree: it is used to explain the intrinsic mechanism of EMS transferability between different types of HEVs, where the analysis of intrinsic mechanism mainly focus on the similarity degrees of the neural network parameters or output distributions. The similarity degree is measured by Euclidean distance.
+
+ <div align="center"><img height="450" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/metric.jpg"/></div>
+Fig. 5. Evaluation metrics. This figure shows four evaluation metrics: fuel economy, jumpstart, convergence efficiency and generalization performance on new unseen driving cycles. ∆J, ∆T and ∆G represent the benefits of transfer respectively.
+
  ## Results
 By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% gap from the baseline in respect of convergence efficiency has been achieved.
 
  <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 5. EMS transfer and convergence efficiency
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 6. EMS transfer and convergence efficiency
  
  ## The code structure
 
