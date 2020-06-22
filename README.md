@@ -48,6 +48,16 @@ By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% g
  <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 6. EMS transfer and convergence efficiency
  
+ ## Dependencies
+
+- tensorflow 1.15.0
+
+- numpy
+
+- matplotlib
+
+- scipy
+ 
  ## The code structure
 
 - The Prius folder contains the DDPG based energy management strategy for Prius (source domain).
