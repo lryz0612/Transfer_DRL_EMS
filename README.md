@@ -58,7 +58,7 @@ Representations will gradually transition from  general  to  specific  with  the
 <div align="center"><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (c). Output distribution of the third layer
 
-Fig. 7. Output distributions of different layers
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fig. 7. Output distributions of different layers
 
 <div align="center"><img width="400" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 8. Euclidean distance of output between the series HEV and the power-split HEB
 
