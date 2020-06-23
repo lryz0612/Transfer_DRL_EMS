@@ -53,10 +53,10 @@ By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% g
 Representations will gradually transition from  general  to  specific  with  the  depth increase of neural network layers. The similarity degrees of neural network outputs between the two HEVs decrease with the depth increase of neural network layers. 
 
  <div align="center"><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/></div>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  (a). Output distribution of the first layer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (b). Output distribution of the second layer  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (a). Output distribution of the first layer &emsp;&emsp;&emsp; (b). Output distribution of the second layer  
 
 <div align="center"><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (c). Output distribution of the third layer
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (c). Output distribution of the third layer
 
 Fig. 7. Output distributions of different layers
 
