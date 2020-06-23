@@ -45,18 +45,21 @@ Fig. 5. Evaluation metrics. This figure shows four evaluation metrics: fuel econ
  ## Results
 By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% gap from the baseline in respect of convergence efficiency has been achieved.
 
- <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
+ <div align="center"><img width="1000" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/Results%20of%20transfer%20learning-1.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 6. EMS transfer and convergence efficiency
  
  ## Interpretability of EMS transfer
  
 Representations will gradually transition from  general  to  specific  with  the  depth increase of neural network layers. The similarity degrees of neural network outputs between the two HEVs decrease with the depth increase of neural network layers. 
 
- <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
-&emsp;&emsp;&emsp; (a). Output distribution of the first layer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (b). Output distribution of the second layer  (c). Output distribution of the third layer
+ <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/></div>
+&emsp;&emsp;&emsp; (a). Output distribution of the first layer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (b). Output distribution of the second layer  
+
+<div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
+(c). Output distribution of the third layer
 Fig. 7. Output distributions of different layers
 
- <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div>
+ <div align="center"><img width="400" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div>
 Fig. 8. Euclidean distance of output between the series HEV and the power-split HEB
 
  ## Dependencies
