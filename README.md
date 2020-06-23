@@ -50,7 +50,7 @@ By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% g
  
  ## Interpretability of EMS transfer
  
-Representations will gradually transition from  general  to  specific  with  the  depth increase of neural network layers. The similarity degrees of neural network outputs between the two HEVs decrease with the depth increase of neural network layers. 
+Representations will gradually transition from  general  to  specific  with  the  depth increase of neural network layers. In Fig. 7 and Fig. 8, the similarity degrees of neural network outputs (Euclidean distance) between the two HEVs decrease with the depth increase of neural network layers. 
 
  <div align="center"><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="300" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/></div>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (a). Output distribution of the first layer &emsp;&emsp; (b). Output distribution of the second layer  
