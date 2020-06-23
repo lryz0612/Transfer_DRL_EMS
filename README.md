@@ -52,11 +52,11 @@ By incorporating transfer learning into DRL-based EMS for HEVs, an average 70% g
  
 Representations will gradually transition from  general  to  specific  with  the  depth increase of neural network layers. The similarity degrees of neural network outputs between the two HEVs decrease with the depth increase of neural network layers. 
 
- <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/><img height="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
+ <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_first_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_second_layer.jpg"/><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/The_third_layer.jpg"/></div>
 &emsp;&emsp;&emsp; (a). Output distribution of the first layer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (b). Output distribution of the second layer  (c). Output distribution of the third layer
 Fig. 7. Output distributions of different layers
 
- <div align="center"><img height="450" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div>
+ <div align="center"><img width="350" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div>
 Fig. 8. Euclidean distance of output between the series HEV and the power-split HEB
 
  ## Dependencies
