@@ -15,7 +15,7 @@ In this paper, we study the cross-type TL among four particular types of HEV EMS
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1. Schematic graph of four types of HEV powertrain architecture
  
  ## Datasets
- In this research, driving cycles consist of two parts: the common  used  standard  driving  cycles  and  the  historical  records of  driving  cycles  collected  from  passenger  and  commercial vehicles. These collected driving cycles are divided into source dataset and target dataset accordingly, in which the amount of data in the source dataset is much larger than that in the target dataset.
+ In this research, driving cycles consist of two parts: the common  used  standard  driving  cycles  and  the  historical  records of  driving  cycles  collected  from  passenger  and  commercial vehicles. These collected driving cycles are divided into source dataset and target dataset accordingly, in which the amount of data in the source dataset is much larger than that in the target dataset. (Due to the confidentiality agreement, we just share a part of driving cycles with you.)
  
  <div align="center"><img width="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/source%20dataset.jpg"/><img width="400" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/target%20dataset.jpg"/></div>
 &emsp;&emsp;&emsp; Fig. 2. Velocity distribution of the source dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 3. Velocity distribution of the target dataset
