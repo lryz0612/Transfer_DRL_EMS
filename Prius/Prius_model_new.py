@@ -116,7 +116,7 @@ class Prius_model():
         # Wheel speed (rad/s)
         Wheel_spd = car_spd / self.Wheel_R
     
-        # Wheel torque (Nm) 地面作用于驱动轮的切向反作用力
+        # Wheel torque (Nm) 
         F_roll = self.mass * self.G * self.C_roll * (self.T_factor if car_spd > 0 else 0)
         F_drag = 0.5 * self.density_air * self.area_frontal * self.C_d *(car_spd ** 2)
         F_a = self.mass * car_a
@@ -180,10 +180,8 @@ class Prius_model():
         
         # the limitation of Batt_pwr
         inf_batt_one = (Batt_vol ** 2 < 4 * Batt_rint * Batt_pwr)    
-        if Batt_vol ** 2 < 4 * Batt_rint * Batt_pwr:
-    #        Eng_pwr = Eng_pwr + Batt_pwr - Batt_vol ** 2 / (4 * Batt_rint)    
-    #        Eng_trq = Eng_pwr / Eng_spd       
-            Batt_pwr = Mot_pwr - Batt_vol ** 2 / (4 * Batt_rint)              # 放电功率过大以及充电功率过大？
+        if Batt_vol ** 2 < 4 * Batt_rint * Batt_pwr:      
+            Batt_pwr = Mot_pwr - Batt_vol ** 2 / (4 * Batt_rint)           
             Batt_I = Batt_eta * Batt_vol / (2 * Batt_rint)
     #        print('battery power is out of bound')
         else:          
