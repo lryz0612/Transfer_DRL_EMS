@@ -76,10 +76,11 @@ Representations will gradually transition from  general  to  specific  with  the
  
  ## The code structure
 
-- The Prius folder contains the DDPG based energy management strategy for Prius (source domain).
-- The Plug-in series HEV folder contains the DDPG based energy management strategy for a plug-in series HEV (target domain).
-- The image folder contains the figures showed in this research.
-- The other HEVs folder contains the logic for modeling other two types of HEVs.
+- The **Prius** folder contains the DDPG based energy management strategy for Prius (source domain).
+- The **Plug-in series HEV** folder contains the DDPG based energy management strategy for a plug-in series HEV (target domain).
+- The **image** folder contains the figures showed in this research.
+- The **other HEVs** folder contains the logic for modeling other two types of HEVs.
+- **Prius modelling.ipynb** illustrates the modelling process of power-split HEV.
 
  ## Collaborators
 --------------
