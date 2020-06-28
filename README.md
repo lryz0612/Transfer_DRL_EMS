@@ -64,6 +64,14 @@ Representations will gradually transition from  general  to  specific  with  the
 
 <div align="center"><img width="400" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/Euclidean%20distance.png"/></div> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 8. Euclidean distance of output between the series HEV and the power-split HEB
 
+ ## The code structure
+
+- The **Prius** folder contains the DDPG based energy management strategy for Prius (source domain).
+- The **Plug-in series HEV** folder contains the DDPG based energy management strategy for a plug-in series HEV (target domain).
+- The **image** folder contains the figures showed in this research.
+- The **other HEVs** folder contains the logic for modeling the other two types of HEVs.
+- **Prius modelling.ipynb** illustrates the modelling process of power-split HEV.
+
  ## Dependencies
 
 - tensorflow 1.15.0
@@ -73,14 +81,6 @@ Representations will gradually transition from  general  to  specific  with  the
 - matplotlib
 
 - scipy
- 
- ## The code structure
-
-- The **Prius** folder contains the DDPG based energy management strategy for Prius (source domain).
-- The **Plug-in series HEV** folder contains the DDPG based energy management strategy for a plug-in series HEV (target domain).
-- The **image** folder contains the figures showed in this research.
-- The **other HEVs** folder contains the logic for modeling the other two types of HEVs.
-- **Prius modelling.ipynb** illustrates the modelling process of power-split HEV.
 
  ## Collaborators
 --------------
