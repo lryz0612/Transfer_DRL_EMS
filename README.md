@@ -39,7 +39,7 @@ To evaluate the performance of transfer learning on the target tasks, some evalu
 
 (5) **Generalization performance:** the performance that is generalized to new unseen driving cycles.
 
-(6) **Similarity degree:** it is used to explain the intrinsic mechanism of EMS transferability between different types of HEVs, where the analysis of intrinsic mechanism mainly focus on the similarity degrees of the neural network parameters or output distributions. The similarity degree is measured by Euclidean distance.
+(6) **Similarity degree:** it is used to explain the intrinsic mechanism of EMS transferability between different types of HEVs. The similarity is mainly refer to the neural network parameters or its output distributions. The similarity degree is measured by the Euclidean distance.
 
  <div align="center"><img height="250" src="https://github.com/lryz0612/Transfer_DRL_EMS/blob/master/image/metric.jpg"/></div>
 Fig. 5. Evaluation metrics. This figure shows four evaluation metrics: fuel economy, jumpstart, convergence efficiency and generalization performance on new unseen driving cycles. ∆J, ∆T and ∆G represent the benefits of transfer respectively.
