@@ -1,6 +1,6 @@
 # Cross-type transfer for deep reinforcement learning based hybrid electric vehicle energy management
 
-**This research is cited from: [Lian, R., H. Tan, J. Peng, Q. Li, Y. Wu. Cross-type transfer for deep reinforcement learning based hybrid electric vehicle energy management, IEEE Transactions on Vehicular Technology, 2020.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9105110)**
+**This research is cited from: [Lian, R., H. Tan, J. Peng, Q. Li, Y. Wu. Cross-type transfer for deep reinforcement learning based hybrid electric vehicle energy management, IEEE Transactions on Vehicular Technology, 2020.](https://ieeexplore.ieee.org/abstract/document/9105110)**
 
 Happy to answer any questions you have. Please email us at lianrz612@gmail.com or kaimaogege@gmail.com.
 
