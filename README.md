@@ -9,7 +9,7 @@ Developing energy management strategies (EMSs) for different types of hybrid ele
 
 ## HEV modeling
 
-In this paper, we study the cross-type TL among four particular types of HEV EMSs. Similarly, all these HEVs are equipped with an engine, a generator, one or two traction motors, and a battery pack, and aim to realize the optimal fuel economy through these components. In this research, Prius acts as the source domain, and the other three types of plug-in HEVs act as the target domain. (**The logic for modeling other two types of HEVs are given in 'other HEVs'. Due to the confidentiality agreement, we cannot share the parameters of those vehicles with you.)
+In this paper, we study the cross-type TL among four particular types of HEV EMSs. Similarly, all these HEVs are equipped with an engine, a generator, one or two traction motors, and a battery pack, and aim to realize the optimal fuel economy through these components. In this research, Prius acts as the source domain, and the other three types of plug-in HEVs act as the target domain. **(The logic for modeling other two types of HEVs are given in 'other HEVs'. Due to the confidentiality agreement, we cannot share the parameters of those vehicles with you.)**
 
 <div align="center"><img height="450" src="https://github.com/lryz0612/Cross-type-transfer-for-DRL-based-energy-management/blob/master/image/HEVs.jpg"/></div>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fig. 1. Schematic graph of four types of HEV powertrain architecture
